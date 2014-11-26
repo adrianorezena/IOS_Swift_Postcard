@@ -55,11 +55,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3xr-LL-hC1">
-                                <rect key="frame" x="16" y="271" width="288" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3z-e0-VBC">
                                 <rect key="frame" x="16" y="195" width="200" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.69128290030866846" blue="0.3428140304673104" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,6 +72,17 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e86-Il-J04">
+                                <rect key="frame" x="16" y="145" width="200" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3xr-LL-hC1">
+                                <rect key="frame" x="16" y="271" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -85,6 +91,7 @@
                         <outlet property="enterMessageTextField" destination="3xr-LL-hC1" id="rLj-cE-X5X"/>
                         <outlet property="mailButton" destination="P3z-e0-VBC" id="xaB-GF-x79"/>
                         <outlet property="messageLabel" destination="c6m-lj-EXJ" id="sV3-cV-SJb"/>
+                        <outlet property="nameLabel" destination="e86-Il-J04" id="0Qq-SC-nKp"/>
                         <outlet property="nameTextField" destination="MTk-jn-fYD" id="j7n-ZA-YXp"/>
                     </connections>
                 </viewController>
